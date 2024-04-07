@@ -18,6 +18,9 @@ html {
 p {
   color: rgb(85, 85, 85);
 }
+#desktop-nav {
+  background-color: #eeeeef;
+}
 
 /* TRANSITION */
 
@@ -163,6 +166,7 @@ section {
 /* PROFILE SECTION */
 
 #profile {
+  margin-top: 9.6rem;
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -192,6 +196,11 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+}
+.section__text__p3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
 }
 
 .title {
