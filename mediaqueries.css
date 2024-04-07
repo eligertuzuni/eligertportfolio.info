@@ -55,7 +55,7 @@
   }
 
   #about {
-    margin-top: 9rem;
+    margin-top: 8rem;
   }
 }
 
@@ -128,5 +128,22 @@
   }
   .article-container {
     width: 100%;
+  }
+  #about {
+    margin-top: -3rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #socials-container {
+    margin-bottom: 0;
+  }
+  #about {
+    margin-top: -3rem;
+  }
+
+  .contact-info-upper-container {
+    margin: 0rem 0rem 1rem -0.5rem;
+    display: flex;
   }
 }
