@@ -22,6 +22,7 @@
   #experience,
   .experience-details-container {
     margin-top: 2rem;
+    display: block;
   }
   #profile,
   .section-container {
@@ -45,6 +46,17 @@
   .about-containers {
     margin-top: 0;
   }
+  .btn-container {
+    margin: 2rem 0 1rem 0;
+  }
+
+  #socials-container {
+    margin-top: 1rem;
+  }
+
+  #about {
+    margin-top: 9rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -56,12 +68,19 @@
     height: 83vh;
     margin-bottom: 0;
   }
+  #project {
+    height: 83vh;
+  }
   article {
     font-size: 1rem;
   }
+
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
+  }
+  .title {
+    margin-bottom: 1.5rem;
   }
   .about-containers,
   .contact-info-upper-container,
@@ -99,5 +118,15 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  .contact-info-upper-container {
+    width: 100%;
+  }
+  .contact-info-container {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  .article-container {
+    width: 100%;
   }
 }
